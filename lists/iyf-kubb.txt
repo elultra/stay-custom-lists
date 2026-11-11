@@ -1,0 +1,24 @@
+[Adblock Plus 2.0]
+! Title: IYF & Kubb Custom Rules
+! Version: 1.0.0
+! Expires: 4 days
+! Description: Network rules for media playback and mirror domains.
+
+! Ad API and static asset hosts across primary and mirror domains
+||ppt.iyf.tv^
+||pptstatic.iyf.tv^
+||ppt.kubb.tv^
+||pptstatic.kubb.tv^
+||ppt.yifan.tv^
+||pptstatic.yifan.tv^
+||ppt.yfsp.tv^
+||pptstatic.yfsp.tv^
+||ppt.aiyifan.tv^
+||pptstatic.aiyifan.tv^
+
+! Video ad media paths (preserves /sb/ seekbar thumbnails)
+||global-cdn.me/vod/
+||*.global-cdn.me/vod/
+
+! Third-party ad script trigger
+||pagead2.googlesyndication.com^
